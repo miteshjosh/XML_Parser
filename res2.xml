@@ -1,0 +1,24 @@
+<S:Envelope xmlns:S='http://schemas.xmlsoap.org/soap/envelope/'>
+  <S:Body>
+    <ns7:inquireUnbilledCreditCardTransactionsResponse xmlns:ns13='http://framework.enumeration.fc.ofss.com' xmlns:ns12='http://feeaccrual.dto.pricing.app.fc.ofss.com' xmlns:ns11='http://dto.datatype.fc.ofss.com' xmlns:ns10='http://earmark.account.dto.dda.app.fc.ofss.com' xmlns:ns9='http://error.validation.infra.fc.ofss.com' xmlns:ns8='http://response.service.fc.ofss.com' xmlns:ns7='http://inquiry.service.cards.appx.cz.fc.ofss.com/' xmlns:ns6='http://domain.framework.fc.ofss.com' xmlns:ns5='http://dto.common.domain.framework.fc.ofss.com' xmlns:ns4='http://datatype.fc.ofss.com' xmlns:ns3='http://context.app.fc.ofss.com' xmlns:ns2='http://exception.infra.fc.ofss.com'>
+      <return>
+        <ns8:status>
+          <ns8:errorCode>0</ns8:errorCode>
+          <ns8:extendedReply/>
+          <ns8:externalReferenceNo>NB06142446310RV2153864</ns8:externalReferenceNo>
+          <ns8:internalReferenceNumber>2022187359320475</ns8:internalReferenceNumber>
+          <ns8:isOverriden>false</ns8:isOverriden>
+          <ns8:postingDate>
+            <ns4:dateString>20220706000000</ns4:dateString>
+          </ns8:postingDate>
+          <ns8:replyCode>0</ns8:replyCode>
+          <ns8:replyText>0</ns8:replyText>
+        </ns8:status>
+        <responseXML>
+          &lt;?xml
+          version=&quot;1.0&quot;?&gt;&lt;faml&gt;&lt;header&gt;&lt;idcust&gt;77707724&lt;/idcust&gt;&lt;reqdatetime&gt;06072022T142446&lt;/reqdatetime&gt;&lt;idrequest&gt;BBUNBLTX&lt;/idrequest&gt;&lt;reqrefno&gt;7679896&lt;/reqrefno&gt;&lt;/header&gt;&lt;txndata&gt;&lt;request&gt;&lt;cardno&gt;4577044404757547&lt;/cardno&gt;&lt;coddrcr&gt;B&lt;/coddrcr&gt;&lt;initialswitch&gt;I&lt;/initialswitch&gt;&lt;lasttxnseqno&gt;0&lt;/lasttxnseqno&gt;&lt;/request&gt;&lt;response&gt;&lt;hostrefno&gt;44635&lt;/hostrefno&gt;&lt;hostdatetime&gt;20220706T142446&lt;/hostdatetime&gt;&lt;/response&gt;&lt;/txndata&gt;&lt;status&gt;&lt;returncodestatus&gt;1&lt;/returncodestatus&gt;&lt;errorcode&gt;05201&lt;/errorcode&gt;&lt;errormessage&gt;NO TRANSACTION AVAILABLE FOR SELECTED CRITERIA &lt;/errormessage&gt;&lt;/status&gt;&lt;/faml&gt;
+        </responseXML>
+      </return>
+    </ns7:inquireUnbilledCreditCardTransactionsResponse>
+  </S:Body>
+</S:Envelope>
